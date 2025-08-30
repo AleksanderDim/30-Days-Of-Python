@@ -62,61 +62,60 @@
 🇧🇷 [Portuguese](./Portuguese/README.md)
 🇨🇳 [中文](./Chinese/README.md)
 
-[Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
+[День 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
 
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-- [🐍 30 Days Of Python](#-30-days-of-python)
-- [📘 Day 1](#-day-1)
-  - [Welcome](#welcome)
-  - [Introduction](#introduction)
-  - [Why Python ?](#why-python-)
-  - [Environment Setup](#environment-setup)
-    - [Installing Python](#installing-python)
-    - [Python Shell](#python-shell)
-    - [Installing Visual Studio Code](#installing-visual-studio-code)
-      - [How to use visual studio code](#how-to-use-visual-studio-code)
-  - [Basic Python](#basic-python)
-    - [Python Syntax](#python-syntax)
-    - [Python Indentation](#python-indentation)
-    - [Comments](#comments)
-    - [Data types](#data-types)
-      - [Number](#number)
-      - [String](#string)
-      - [Booleans](#booleans)
-      - [List](#list)
-      - [Dictionary](#dictionary)
-      - [Tuple](#tuple)
-      - [Set](#set)
-    - [Checking Data types](#checking-data-types)
-    - [Python File](#python-file)
-  - [💻 Exercises - Day 1](#-exercises---day-1)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
 
-# 📘 Day 1
+- [🐍 30 днів з Python](#-30-days-of-python)
+- [📘 День 1](#-day-1)
+  - [Вітаємо](#welcome)
+  - [Вступ](#introduction)
+  - [Чому саме Python?](#why-python-)
+  - [Налаштування середовища](#environment-setup)
+    - [Встановлення Python](#installing-python)
+    - [Інтерпретатор Python (Shell)](#python-shell)
+    - [Встановлення Visual Studio Code](#installing-visual-studio-code)
+      - [Як користуватися Visual Studio Code](#how-to-use-visual-studio-code)
+  - [Базовий Python](#basic-python)
+    - [Синтаксис Python](#python-syntax)
+    - [Відступи в Python](#python-indentation)
+    - [Коментарі](#comments)
+    - [Типи даних](#data-types)
+      - [Числа](#number)
+      - [Рядки](#string)
+      - [Булеві значення](#booleans)
+      - [Списки](#list)
+      - [Словники](#dictionary)
+      - [Кортежі](#tuple)
+      - [Множини](#set)
+    - [Перевірка типів даних](#checking-data-types)
+    - [Файли Python](#python-file)
+  - [💻 Вправи — День 1](#-exercises---day-1)
+    - [Вправа: Рівень 1](#exercise-level-1)
+    - [Вправа: Рівень 2](#exercise-level-2)
+    - [Вправа: Рівень 3](#exercise-level-3)
 
-## Welcome
+# 📘 День 1
 
-**Congratulations** for deciding to participate in a _30 days of Python_ programming challenge. In this challenge, you will learn everything you need to be a python programmer and the whole concept of programming. At the end of the challenge, you will get a _30DaysOfPython_ programming challenge certificate.
+# Ласкаво просимо
+Вітаємо з рішенням взяти участь у програмному челенджі 30 днів Python. У цьому виклику ви навчитеся всього необхідного, щоб стати програмістом на Python, а також оволодієте загальними концепціями програмування. Після завершення челенджу ви отримаєте сертифікат 30DaysOfPython.
+Якщо ви хочете активно долучитися до челенджу, можете приєднатися до групи 30DaysOfPython у Telegram.
 
-If you would like to actively engage in the challenge, you may join the [30DaysOfPython challenge](https://t.me/ThirtyDaysOfPython) telegram group.  
 
-## Introduction
+## Вступ
+Python — це мова програмування високого рівня, призначена для загального використання. Вона є відкритою, інтерпретованою та об'єктно-орієнтованою. Python був створений нідерландським програмістом Ґвідо ван Россумом. Назва мови походить від британського комедійного шоу Monty Python's Flying Circus. Перша версія була випущена 20 лютого 1991 року.
+Цей челендж «30 днів Python» допоможе вам крок за кроком опанувати найновішу версію Python — Python 3. Теми розбиті на 30 днів, і кожен день містить кілька підтем з простими для розуміння поясненнями, прикладами з реального життя, а також великою кількістю практичних вправ і проєктів.
+Цей челендж створений як для початківців, так і для досвідчених програмістів, які хочуть вивчити мову програмування Python. На його проходження може знадобитися від 30 до 100 днів. Люди, які активно беруть участь у Telegram-групі, мають високу ймовірність завершити челендж.
 
-Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, objected-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of the Python programming language was derived from a British sketch comedy series, *Monty Python's Flying Circus*.  The first version was released on February 20, 1991. This 30 days of Python challenge will help you learn the latest version of Python, Python 3 step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples, and many hands on exercises and projects.
+ Цей курс легко читається, написаний у розмовному стилі англійською мовою, захоплює, мотивує, але водночас є досить вимогливим. Вам потрібно буде виділити достатньо часу, щоб пройти цей челендж. Якщо ви краще навчаєтесь візуально, ви можете переглянути відеоуроки на <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Ви можете почати з відео "Python in 3 hours – Python for Absolute Beginner". Підпишіться на канал, залишайте коментарі та ставте запитання під відео на YouTube — будьте активними, і автор обов’язково вас помітить.
+Автору приємно чути вашу думку про челендж, тому поділіться своїми враженнями про виклик 30DaysOfPython. Ви можете залишити свій відгук на цій
+ [link](https://www.asabeneh.com/testimonials)
 
-This challenge is designed for beginners and professionals who want to learn python programming language. It may take 30 to 100 days to complete the challenge. People who actively participate in the telegram group have a high probability of completing the challenge.
-
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. You may start from [Python for Absolute Beginners video](https://youtu.be/OCCWZheOesI). Subscribe the channel, comment and ask questions on YouTube vidoes and be proactive, the author will eventually notice you.
-
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfPython challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
-
-## Why Python ?
-
-It is a programming language which is very close to human language and because of that, it is easy to learn and use.
-Python is used by various industries and companies (including Google). It has been used to develop web applications, desktop applications, system administration, and machine learning libraries. Python is a highly embraced language in the data science and machine learning community. I hope this is enough to convince you to start learning Python. Python is eating the world and you are killing it before it eats you.
+## Чому саме Python?
+Це мова програмування, яка дуже близька до людської мови, і саме тому її легко вивчати та використовувати.
+Python застосовується в різних галузях і компаніях (зокрема в Google). Його використовують для створення вебзастосунків, десктопних програм, адміністрування систем, а також для розробки бібліотек машинного навчання. Python — одна з найулюбленіших мов у спільноті Data Science та Machine Learning.
+Сподіваюся, цього достатньо, щоб переконати вас почати вивчати Python. Python «поглинає» світ, а ви — опановуєте його раніше, ніж він опанує вас.
 
 ## Environment Setup
 
