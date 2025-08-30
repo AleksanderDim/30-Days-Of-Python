@@ -1,23 +1,23 @@
 # Introduction
 # Day 1 - 30DaysOfPython Challenge
 
-print(3 + 2)   # addition(+)
-print(3 - 2)   # subtraction(-)
-print(3 * 2)   # multiplication(*)
-print(3 / 2)   # division(/)
-print(3 ** 2)  # exponential(**)
-print(3 % 2)   # modulus(%)
-print(3 // 2)  # Floor division operator(//)
+print(3 + 2)    # Додавання: 3 плюс 2
+print(3 - 2)    # Віднімання: 3 мінус 2
+print(3 * 2)    # Множення: 3 помножити на 2
+print(3 / 2)    # Ділення: 3 поділити на 2 (результат — число з плаваючою крапкою)
+print(3 ** 2)   # Піднесення до степеня: 3 у квадраті
+print(3 % 2)    # Залишок від ділення: залишок від 3 поділити на 2
+print(3 // 2)   # Цілочисельне ділення: 3 поділити на 2 без остачі
 
-# Checking data types
+# Перевірка типів даних
 
-print(type(10))                  # Int
-print(type(3.14))                # Float
-print(type(1 + 3j))              # Complex
-print(type('Asabeneh'))          # String
-print(type([1, 2, 3]))           # List
-print(type({'name':'Asabeneh'})) # Dictionary
-print(type({9.8, 3.14, 2.7}))    # Set
-print(type((9.8, 3.14, 2.7)))    # Tuple
-print(type(3 == 3))              # Bool
-print(type(3 >= 3))              # Bool
+print(type(10))                  # Ціле число (int) — наприклад, 10
+print(type(3.14))                # Дійсне число (float) — наприклад, 3.14
+print(type(1 + 3j))              # Комплексне число (complex) — має уявну частину
+print(type('Asabeneh'))          # Рядок (str) — текстові дані
+print(type([1, 2, 3]))           # Список (list) — впорядкована колекція елементів
+print(type({'name':'Asabeneh'})) # Словник (dict) — пари ключ-значення
+print(type({9.8, 3.14, 2.7}))    # Множина (set) — унікальні елементи без порядку
+print(type((9.8, 3.14, 2.7)))    # Кортеж (tuple) — незмінна впорядкована колекція
+print(type(3 == 3))              # Булеве значення (bool) — True або False
+print(type(3 >= 3))              # Булеве значення (bool) — результат логічного порівняння
